@@ -126,32 +126,160 @@
             <h2 class = "position-relative d-inline-block">New Collection</h2>
         </div>
 
-        <div class = "row">
-            <div class = "d-flex flex-wrap justify-content-center mt-5">
-                <button type = "button" class ="btn m-2 text-dark active-filter-btn">All</button>
-                <button type = "button" class ="btn m-2 text-dark active-filter-btn">Best Sellers</button>
-                <button type = "button" class ="btn m-2 text-dark active-filter-btn">Featured</button>
-                <button type = "button" class ="btn m-2 text-dark active-filter-btn">New Arrivals</button>
+        <div class = "row g-0">
+            <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                <button type = "button" class ="btn m-2 text-dark active-filter-btn" data-filter = "*">All</button>
+                <button type = "button" class ="btn m-2 text-dark active-filter-btn " data-filter = ".best">Best Sellers</button>
+                <button type = "button" class ="btn m-2 text-dark active-filter-btn" data-filter = ".feat">Featured</button>
+                <button type = "button" class ="btn m-2 text-dark active-filter-btn" data-filter = ".new">New Arrivals</button>
             </div>
 
-            <div class = "collection-list mt-xl-4">
-                <div class = "">
-                    <div class = "collection-img">
-                        <img src = "images/dark_wash_denim.jpg" class = "w-100">
+            <div class = "collection-list mt-xl-4 row gx-0 gy-3">
+                
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_black_organza.jpg" class = "w-100">
                         <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                     </div>
                     <div class = "text-center">
-                        <div class = "rating">
+                        <div class = "rating mt-3">
                             <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             <span class = "text-primary"><i class = "fas fa-star"></i></span>
                         </div>
-                        <p class = "">dark wash denim</p>
-                        <span class = "">$ 14.69 yd.  </span>
+                        <p class = "text-capitalize my-1">Black Organza</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
                     </div>
                 </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_blue_satin.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Royal Blue Satin</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_brown_linen.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Brown Linen</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_faux_textured_leather.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Orange Faux Leather</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_green_linen.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">forest green linen</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_red_sequin_fabric.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">red sequined fabric</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_rouched_ruby.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">rouched ruby fabric</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class = "collection-img position-relative">
+                        <img src = "images/c_dark_wash_denim.jpg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">dark wash denim</p>
+                        <span class = "fw-bold">$ 14.69 yd.  </span>
+                    </div>
+                </div>
+
             </div>
         </div>
 
