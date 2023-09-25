@@ -61,6 +61,18 @@ body{
     border-color: var(--pink)!important;
 }
 
+/* title */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 
 
